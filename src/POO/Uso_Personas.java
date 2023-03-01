@@ -17,7 +17,22 @@ abstract class Persona{
     }
     public abstract String dameDescripcion();
 }
+class Empleado extends Persona{
+    private String nombre;
+    private double sueldo;
+    public Empleado(String nom, double sue){
+        super(nom);
+        sueldo=sue;
+    }
 
+    public String dameDescripcion(){
+        return "El empleado tiene un sueldo de: " + sueldo;
+    }
+    public double dameSueldo(){
+
+        return sueldo;
+    }
+}
 
 
 
