@@ -13,8 +13,8 @@ public class Uso_Personas {
     }
 }
 
-abstract class Persona{
-    private String nombre;
+abstract class Persona{ //abstraccion
+    private String nombre; //encapsulamiento
     public Persona(String nom){
         nombre=nom;
     }
@@ -23,7 +23,7 @@ abstract class Persona{
     }
     public abstract String dameDescripcion();
 }
-class Empleado extends Persona{
+class Empleado extends Persona{ //herencia y polimorfismo
     private String nombre;
     private double sueldo;
     public Empleado(String nom, double sue){
