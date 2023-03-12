@@ -1,12 +1,11 @@
 package POO;
 
 import javax.swing.*;
-class Student extends Person{
 
-    Student(String name, int age, String customdescription){
-
+class Employee extends Person {
+    public Employee(String name, int age, String custoDescription){
         super(name, age);
-        this.description=customdescription;
+        this.description=custoDescription;
     }
     public String getDescription(){
         return description;
@@ -16,3 +15,4 @@ class Student extends Person{
     }
 
 }
+
