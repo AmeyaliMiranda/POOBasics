@@ -13,6 +13,6 @@ abstract class Person {
     public int getAge(){
         return age;
     }
-    public abstract String description();
+    public abstract String absDescription();
 
 }
